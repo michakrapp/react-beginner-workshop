@@ -13,7 +13,7 @@
 // Have fun!
 //
 
-/**/
+/*/
 
 // Use for exercises 0 - 6.
 
