@@ -7,8 +7,6 @@ import { render } from 'react-dom';
 
 const root = document.getElementById( 'root' );
 
-const element = React.createElement( 'h1', {
-	children: 'Hello World!',
-} );
+const element = <h1 id='title' className='first-title' style={{ color: 'red' }}>Hello World!</h1>;
 
 render( element, root );
