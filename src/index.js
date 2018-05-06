@@ -17,7 +17,7 @@
 
 // Use for exercises 0 - 6.
 
-require( './exercises/0' );
+require( './exercises/1' );
 
 /*/
 

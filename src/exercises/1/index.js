@@ -3,9 +3,14 @@
 // The configuration of that element will happen on-the-fly (by passing data as second argument).
 // The "insertion" will then happen by React DOM's render method.
 
-const root = document.getElementById( 'root' );
+import React from 'react';
+import { render } from 'react-dom';
 
-const element = document.createElement( 'h1' );
-element.textContent = 'Hello World!';
+const element = React.createElement( 'h1', {
+    children: 'Hello World',
+    style: {
+      color: 'red',
+    }
+});
 
-root.appendChild( element );
+render( element, root );
