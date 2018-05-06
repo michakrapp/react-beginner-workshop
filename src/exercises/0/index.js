@@ -3,3 +3,10 @@
 // Grabbing the root can be done by document.getElementById().
 // And "insertion" is possible with root.apendChild().
 
+const root = document.getElementById( 'root' );
+
+const element = document.createElement( 'h1' );
+
+element.textContent = 'Hello World';
+
+root.appendChild(element);
